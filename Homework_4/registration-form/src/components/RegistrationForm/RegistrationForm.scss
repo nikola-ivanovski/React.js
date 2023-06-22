@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f0f0f0;
+  max-width: 500px;
+  background-color: rgb(206, 206, 36);
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgba(127, 255, 212, 0.568);
+  padding: 20px;
+
+  label {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .field {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f0f0f0;
+    width: 450px;
+    height: 50px;
+    font-size: 25px;
+    background-color: transparent;
+  }
+
+  .register_btn {
+    width: 90%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+}
